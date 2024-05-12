@@ -1,0 +1,16 @@
+{
+  "name": "vercel-x-graphql-yoga",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev --listen 5000",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "graphql-yoga": "^5.3.1"
+  },
+  "devDependencies": {
+    "vercel": "^34.1.11"
+  }
+}
