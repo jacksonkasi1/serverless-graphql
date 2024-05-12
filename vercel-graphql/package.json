@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "vercel dev",
+    "start": "vercel dev --listen 5000",
     "deploy": "vercel --prod"
   },
   "dependencies": {
